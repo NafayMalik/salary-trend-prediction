@@ -22,7 +22,11 @@ The integrated dataset is stored in a PostgreSQL database for seamless analysis.
 # Usage:
 1. Clone the repository: `git clone https://github.com/NafayMalik/salary-trend-prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the project: `python api.py`
+3. Set up your PostgreSQL database with the necessary credentials.
+4. Run the project: `python api.py`
+   
+# Database:
+The project utilizes a PostgreSQL database to store and manage historical salary data. The schema includes fields for work year, company location, employment type, job title, salary, experience level, inflation rate, and GDP.
 
 # Future Enhancements:
 - Explore additional economic indicators for a more comprehensive analysis.
@@ -31,5 +35,5 @@ The integrated dataset is stored in a PostgreSQL database for seamless analysis.
 # Contributing:
 Contributions are welcome! Feel free to open issues or submit pull requests for enhancements or bug fixes.
 
-3 License:
+# License:
 This project is licensed under the MIT License - see the `LICENSE` file for details.
