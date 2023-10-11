@@ -1,4 +1,6 @@
 # GDP data Link:
 https://www.alphavantage.co/query?function=REAL_GDP&interval=annual&apikey=demo
+
+
 # Inflation Rate data Link:
 https://www.alphavantage.co/query?function=INFLATION&apikey=demo
