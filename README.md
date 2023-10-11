@@ -10,6 +10,8 @@ The integrated dataset is stored in a PostgreSQL database for seamless analysis.
 - Data Acquisition: Utilized Kaggle API to extract comprehensive job market data and AlphaVantage for economic indicators.
 - Linear Regression Model: Implemented to predict future salary trends based on historical data and economic indicators.
 - FastAPI Web Interface: Provided a user-friendly interface for customized insights, allowing users to input specific job titles for targeted analysis.
+- Database management using PostgreSQL for storing and updating project data.
+- Visual representation of salary trends through matplotlib.
 
 # Project Structure:
 - `data_extraction.py`: Contains scripts for acquiring and integrating data from Kaggle and AlphaVantage.
