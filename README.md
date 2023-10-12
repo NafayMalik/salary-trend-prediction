@@ -22,7 +22,7 @@ The integrated dataset is stored in a PostgreSQL database for seamless analysis.
 # Usage:
 1. Clone the repository: `git clone https://github.com/NafayMalik/salary-trend-prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Set up your PostgreSQL database with the necessary credentials.
+3. Set up your PostgreSQL database with the necessary credentials in `db.py`
 4. Run the project: `python api.py`
    
 # Database:
