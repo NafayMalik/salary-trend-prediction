@@ -14,10 +14,10 @@ The integrated dataset is stored in a PostgreSQL database for seamless analysis.
 - Visual representation of salary trends through matplotlib.
 
 # Project Structure:
-- `data_extraction.py`: Contains scripts for acquiring and integrating data from Kaggle and AlphaVantage.
-- `linear_regression_model.py`: Includes the implementation of the Linear Regression model for salary predictions.
-- `web_interface.py`: Implements the FastAPI web interface for user interaction with the data.
-- `database_setup.py`: Sets up the PostgreSQL database and handles data integration.
+- `Inserting_data.py`, 'Inflation_Column', 'GDP_Column': Contains scripts for acquiring and integrating data from Kaggle and AlphaVantage.
+- `Prediction_and_Difference_for_Specific_Title.py`: Includes the implementation of the Linear Regression model for salary predictions.
+- `api.py`: Implements the FastAPI web interface for user interaction with the data.
+- `db.py`: Sets up the PostgreSQL database and handles data integration.
 
 # Usage:
 1. Clone the repository: `git clone https://github.com/NafayMalik/salary-trend-prediction.git`
